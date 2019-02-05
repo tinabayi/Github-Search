@@ -1,0 +1,21 @@
+
+<h1>Github Search application</h1>
+<div class="container">
+
+    <div class="row">
+        <blockquote class="text-center text-lg">
+         <p><img src="{{github.avatar_url}}"></p>
+         <p>Name:{{github.name}}</p>
+         <p>Repositories:{{github.public_repos}}</p>
+         <p>Followers{{github.followers}}</p>
+         <p>Folowing:{{github.following}}</p>
+           <footer><cite><a href="{{github. repos_url}}" target="_blank">Link to repository</a></cite></footer>
+        </blockquote>
+    </div>
+    
+</div>
+<div class="container">
+        <div class="row">
+            <app-github-form></app-github-form>
+        </div>
+    </div>
