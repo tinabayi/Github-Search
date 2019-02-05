@@ -6,8 +6,10 @@ GithubSearch
 ~~~
 Bayizere Christine
 ~~~
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.2.
+### Description of project 
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version  v8.x:
+this project contain a form where user can enter his username in case he click the search button he will see all information about
+repositories,followers,following,name,profile photo.
 
 ## Development server
 
