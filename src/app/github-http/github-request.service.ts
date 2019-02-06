@@ -39,6 +39,7 @@ export class GithubRequestService {
     error=>{
       this.github.name="never,never"
       this.github.followers=0
+      
       this.github.following=0
       this.github.repos_url="http...."
       this.github.public_repos=0
