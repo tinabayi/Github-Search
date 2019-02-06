@@ -14,7 +14,7 @@ username:""
 // @Output() add  username=new EventEmitter<Username>();
     
     submitInput(){
-       console.log(username)
+       console.log()
   
     }
   constructor() { }
