@@ -25,7 +25,7 @@ export class GithubRequestService {
   }
 
   let promise =new Promise((resolve,reject)=>{
-    this.http.get<ApiResponse>('https://api.github.com/users/' + userInput+ '?access_token=33b16a8f7dda204f8be34d47222412140e31df0e').toPromise().then(response=>{
+    this.http.get<ApiResponse>('https://api.github.com/users/' + userInput).toPromise().then(response=>{
         
         this.github.name=response.name
         this.github.avatar_url=response.avatar_url
