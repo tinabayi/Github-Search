@@ -1,14 +1,8 @@
-
-<div class="container">
-
-<label id="user"></label>
-<input type="search" placeholder="userInput" [(ngModel)]="userInput">
-<button (click)='submit()'>Search</button>
-
 <h1>Github Search application</h1>
 <div class="container">
-
-    <div class="row">
+<div class="row">
+ <div class="col-md-6">
+     
         <blockquote class="text-center text-lg">
          <p><img src="{{github.avatar_url}}"></p>
          <p>Name:{{github.name}}</p>
@@ -17,8 +11,15 @@
          <p>Folowing:{{github.following}}</p>
            <footer><cite><a href="{{github. repos_url}}" target="_blank">Link to the Github pages</a></cite></footer>
         </blockquote>
-    </div>
-    
-</div>
+ </div>
+ <div class="col-md-6">
 
+
+            <label id="user"></label>
+            <input type="search" placeholder=" type a username " [(ngModel)]="userInput">
+            <button (click)='submit()'>Search</button>
+            </div>  
+             
+
+</div>
 </div>
